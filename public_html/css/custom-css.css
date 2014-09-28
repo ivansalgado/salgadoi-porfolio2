@@ -1,13 +1,13 @@
 div{
     border-style: solid;
     border-width: 0px;
-    border-color: white;
-    padding: 10px;
+    border-color: #bdbdbd;
+    padding: 20px;
 }
 
 a{
     font-family: 'Carme', sans-serif;
-    color: #ffa726;
+    color: blue;
 }
 
 h1{
@@ -18,8 +18,8 @@ h1{
 }
 
 h2{
-   color: white;
     font-size:25px;
+    color: white;
     font-family: 'Carme', sans-serif; 
 }
 
@@ -30,6 +30,7 @@ h3{
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 0px;
+    font-family: 'Carme', sans-serif;
 }
 
 h4{
@@ -40,17 +41,36 @@ h4{
     padding-bottom: 20px;
 }
 
-body{
-    background: url(../images/WestfieldSF.png);
-}
-
-image{
-    height: 200px;
-    width: 200px;
+.jumbotron{
+    background: url("http://francois-roux-photography.com/images/photographs/new-york-central-park/san-remo-lake-autumn-central-park-new-york.jpg");
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    text-decoration-color: white;
 }
 
 h6{
-    color: white;
-    font-size: 30px;
-    padding-left: 20px
+    font-size: 50px;
+    padding-left: 20px;
+    font-family: 'Carme', sans-serif;
+    border-style: groove;
+    border-width: 1px;
+    border-color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+body{
+    background-color: #e0e0e0;
+}
+
+article{
+    font-size: 22.5px;
+}
+
+p{
+    font-family: 'Carme', sans-serif;
+}
+
+.btn-group{
+    padding: 7px;
 }
