@@ -6,12 +6,13 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Ivan Salgado Portfolio</title>
+        <title>Iván Salgado Portfolio</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type='text/css' rel='stylesheet' href='css/bootstrap-theme.css'>
         <link type='text/css' rel='stylesheet' href='css/bootstrap.css'>
         <link type='text/css' rel='stylesheet' href='css/custom-css.css'>
+        <link href='http://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
     </head>
     <body>
         
@@ -33,17 +34,51 @@ and open the template in the editor.
                        type in: body{color: white;}. </p>
                     </div>
                     <!--pics of html, css, and bootstrap-->
-                    <div class='row'>
-                        <a href="http://www.w3.org/standards/webdesign/htmlcss">
-                    <img src='images/html5.png'>
-                        </a>
-                        <a href="http://www.w3.org/standards/webdesign/htmlcss">
-                    <img src='images/css3.png'>
-                        </a>
-                        <a href="http://getbootstrap.com/">
-                    <img src='images/bootstrap.png'>
-                        </a>
-                    </div>
+                    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+    <li data-target="#carousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    
+      <div class="item active">
+          <a href="http://www.w3.org/standards/webdesign/htmlcss">
+      <img src="images/html5.png" alt="ny" class="center">
+          </a>
+      </div>
+      
+      <div class="item">
+          <a href="http://www.w3.org/standards/webdesign/htmlcss">
+      <img src="images/css3.png" alt="pfa" class="center">
+          </a>
+      </div>
+      
+      <div class="item">
+          <a href="http://getbootstrap.com/">    
+      <img src="images/bootstrap.png" alt="stat" class="center">
+          </a>
+      </div>
+      
+      <div class="item">
+          <a href="http://melonjs.org/">
+      <img src="images/mjs.png" alt="stat" class="center">
+          </a>
+      </div>
+      
+      <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+
+  </div>
+  </div>  
                     <article>Bootstrap</article>
                     <div class="row">
                         <p>Bootstrap is an open-source software, used to assist 
@@ -58,6 +93,7 @@ and open the template in the editor.
                 <a href="about-me.html" class="list-group-item">About Me</a>
                 <a href="projects.html" class="list-group-item">Projects</a>
                 <a href="technology.html" class="list-group-item active">Technology</a>
+                <a href="http://localhost:8383/salgadoi-portfolio/technology.html" class="list-group-item">Portfolio 1:</br>Technology</a>
                 <a href="http://www.theappacademy.us/" class="list-group-item">App Academy</a>
                 <a href="http://phs.pasadenausd.org/" class="list-group-item">PHS</a>
                 <a href="http://www.w3.org/standards/webdesign/htmlcss" class="list-group-item">W3C</a>
