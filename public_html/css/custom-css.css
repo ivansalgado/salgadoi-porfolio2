@@ -83,24 +83,42 @@ p{
 }
 
 #boot{
+    background-color: white;
+    color: #311B92;
+}
+#boot:hover{
     background-color: #311B92;
     color: white;
 }
 
 #melon{
-    background-color: #64DD17;
+    background-color: white;
+    color: #64DD17;
+}
+#melon:hover{
     color: white;
+    background-color: #64DD17;
 }
 
 #html{
-    background-color: #FF9800;
+    background-color: white;
+    color: #FF9800;
+    font-family: 'Aldrich', sans-serif;
+}
+#html:hover{
     color: white;
+    background-color: #FF9800;
     font-family: 'Aldrich', sans-serif;
 }
 
 #css{
-    background-color: #81D4FA;
+    background-color: white;
+    color: #81D4FA;
+    font-family: 'Aldrich', sans-serif;
+}
+#css:hover{
     color: white;
+    background-color: #81D4FA;
     font-family: 'Aldrich', sans-serif;
 }
 
@@ -111,4 +129,13 @@ p{
 .center{
     margin-left: auto;
     margin-right: auto;
+}
+
+#bigred:hover {
+    background-color: red;
+    color: white;
+}
+
+#app:hover{
+    color: red;
 }

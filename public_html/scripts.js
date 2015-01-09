@@ -1,3 +1,3 @@
 $("document").ready(function(){
-    $("#ivan").css("background-color", "pink");
+    $(".ivan").css("background-color", "pink");
 });
