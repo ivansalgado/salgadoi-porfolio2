@@ -1,9 +1,15 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
     <head>
         <title>Iván Salgado Portfolio</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" type="image/x-icon" href="ico/á.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="2.ico">
         <link type='text/css' rel='stylesheet' href='css/bootstrap-theme.css'>
         <link type='text/css' rel='stylesheet' href='css/bootstrap.css'>
         <link type='text/css' rel='stylesheet' href='css/custom-css.css'>
@@ -11,81 +17,11 @@
     </head>
     <body>
         
-        <nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Iván Salgado</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="about-me.html">About Me</a></li>
-       
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Projects<span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            
-              <li><a href="projects.html">All</a></li>
-              <li class="divider"></li>
-              <li><a href="http://localhost:8383/salgadoi-portfolio/index.html">Portfolio</a></li>
-              <li class="divider"></li>
-              <li><a href="http://localhost:8383/salgadoi-portfolio2/index.html">Portfolio 2</a></li>
-              <li class="divider"></li>
-              <li><a href="http://localhost:8383/salgadoi-snake/index.html">Snake</a></li>
-              <li class="divider"></li>
-              <li><a href="http://localhost:8383/MarioIvanS/index.html">Mario</a></li>
-              <li class="divider"></li>
-              <li><a href="http://localhost:8383/CBIvanS/index.html">Advertisement</a></li>
-              <li class="divider"></li>
-              <li><a>Portfolio 2 (alternative)</a></li>
-         </ul>
-        </li>
-        
-        <li class="active"><a href="technolgy.html">Technology</a></li>
-        <li><a href="http://www.theappacademy.us/">The App Academy</a></li>
-        <li><a href="http://phs.pusd.us/pages/Pasadena_High">Pasadena High School</a></li>
-        
-        <li><div class="btn-group"><a href="http://getbootstrap.com/">
-        <button type="button" class="btn btn-default" id="boot">B</button></a>
-        </div></li>
-        
-        <li><div class="btn-group"><a href="http://melonjs.org/">
-        <button type="button" class="btn btn-default" id="melon">m</button></a>
-        </div></li>
-        
-        <li><div class="btn-group"><a href="http://www.w3.org/standards/webdesign/htmlcss">
-        <button type="button" class="btn btn-default" id="html">5</button></a>
-        </div></li>
-        
-        <li><div class="btn-group"><a href="http://www.w3.org/standards/webdesign/htmlcss">
-        <button type="button" class="btn btn-default" id="css">3</button></a>
-        </div></li>
-        
-        <li><div class="btn-group" id="clickButton">
-        <button type="button" class="btn btn-default" id="clickButton">b</button>
-        </div></li>
-        
-        <li><div class="btn-group" id="clickButtin">
-        <button type="button" class="btn btn-default" id="clickButtin">b</button>
-        </div></li>
-        
-      </ul>
-    </div>
-  </div>
-  </nav>
-        
          <div class="row">
             <div class="row">
                 <h6>Technology</h6>
-                    <article id="me">HTML & CSS</article>
+                <div class="col-xs-10">
+                    <article>HTML & CSS</article>
                     <div class="row">
                     <p>Our web sites at the App Academy are developed with a computer application called 
                        NetBeans. This application enables us to use HTML (Hypertext Markup Language).
@@ -150,12 +86,26 @@
                            HTML and CSS. This means that you can add certain features 
                            (such as the dropdowns used in the index page) to make your 
                            web site look sleeker and more professional.</p>
-                    </div> 
+                    </div>
+                </div>
+                <div class="col-xs-2">
+                <div class="list-group">
+                <a href="v2.html" class="list-group-item">Index</a>
+                <a href="about1.html" class="list-group-item">About Me</a>
+                <a href="project1.html" class="list-group-item">Projects</a>
+                <a href="tech1.html" class="list-group-item active">Technology</a>
+                <a href="http://localhost:8383/salgadoi-portfolio/technology.html" class="list-group-item">Portfolio 1:</br>Technology</a>
+                <a href="http://www.theappacademy.us/" class="list-group-item">App Academy</a>
+                <a href="http://phs.pasadenausd.org/" class="list-group-item">PHS</a>
+                <a href="http://www.w3.org/standards/webdesign/htmlcss" class="list-group-item">W3C</a>
+                <a href="http://getbootstrap.com/" class="list-group-item">Bootstrap</a>
+                <a href="http://www.pasedfoundation.org/programs/college-and-career-pathways/" class="list-group-item">Pathway Programs</a>
+                </div>
+                </div> 
             </div>
          </div>
                 
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
        <script src="js/bootstrap.min.js"></script>
-       <script type="text/javascript" src="scripts.js"></script>
     </body>
 </html>

@@ -7,18 +7,21 @@ div{
 
 a{
     font-family: 'Carme', sans-serif;
-    color: blue;
+    color: pink;
 }
 
 h1{
-    color: white;
-    font-size:125px;
-    font-family: 'Carme', sans-serif;
+    font-size:130px;
     padding-top: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#greet{
+    color: #212121;
 }
 
 h2{
-    font-size:25px;
+    font-size:22px;
     color: white;
     font-family: 'Carme', sans-serif; 
 }
@@ -42,14 +45,14 @@ h4{
 }
 
 .jumbotron{
-    background: url("http://francois-roux-photography.com/images/photographs/new-york-central-park/san-remo-lake-autumn-central-park-new-york.jpg");
+    background: url("http://wallpaperest.com/wallpapers/new-york-sunset-central-park-autumn-city_075722.jpg");
     background-size: 1500px;
     background-repeat: no-repeat;
     text-decoration-color: white;
 }
 
 h6{
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Carme', sans-serif;
     padding-bottom: 50px;
     color: #757575;
@@ -68,13 +71,16 @@ p{
     font-size: 21px;
 }
 
+p2{
+    color: #FF9800;
+}
+
 .btn-group{
     padding: 7px;
 }
 
 .navbar-header{
-    padding-bottom: 65px;
-    background-color: #E0F7FA;
+    color: #FF9800;
 }
 
 #current-link{
@@ -131,11 +137,10 @@ p{
     margin-right: auto;
 }
 
-#bigred:hover {
-    background-color: red;
-    color: white;
+#pic{
+    background-image: url("http://francois-roux-photography.com/images/photographs/new-york-central-park/san-remo-lake-autumn-central-park-new-york.jpg");
 }
 
-#app:hover{
-    color: red;
+#clickButton{
+    text-shadow: 5px;
 }

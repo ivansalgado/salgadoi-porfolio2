@@ -1,9 +1,22 @@
 $("document").ready(function(){
-    $(".ivan").css("background-color", "green");
+    $(".ivan").css("background-color", "orange");
 
-    $(".btn-group").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
+    $("#boot").bind('click', alertButtonClick);
+    
+    $("#clickButton").bind('click', clickButton);
+    $("#clickButton").bind('click', clickButtin);
 });
 
-$('.btn-group').bind(function(mouseOverMe){
-    $('btn-group').fadeIn(2000);
-});    
+function alertButtonClick(){
+    alert("go to bootstrap?");
+}
+
+function clickButton(){
+    $('#me').html('<h6>now im an h6 tag</h6>');
+}
+
+function clickButtin(){
+    $('#me').text('<h6>now im an h6 tag</h6>');
+}
+
+  

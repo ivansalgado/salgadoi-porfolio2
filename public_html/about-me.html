@@ -11,67 +11,72 @@
         <link href='http://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        
-        
-        
-        <div class="row">
-            <div class="row">
                             
-                <nav class="navbar navbar-default" role="navigation">
+                <nav class="navbar navbar-default" role="navigation" id="nav">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <a class="navbar-brand" href="index.html"><h6>Iván Salgado</h6></a>
+    <a class="navbar-brand" href="index.html">Iván Salgado</a>
     </div>
-    
-    
-    </div>
-    <div class="btn-group"><a href="about-me.html">
-  <button type="button" class="btn btn-default" id="current-link">About Me</button>
-        </a>
-</div>
-    <div class="btn-group"><a href="projects.html">
-  <button type="button" class="btn btn-default">Projects</button>
-        </a>
-</div>
-    <div class="btn-group"><a href="technology.html">
-  <button type="button" class="btn btn-default">Technology</button>
-        </a>
-</div>
-    <div class="btn-group"><a href="http://www.theappacademy.us/.html">
-  <button type="button" class="btn btn-default" id="app">The App Academy</button>
-        </a>
-</div>
-    <div class="btn-group"><a href="http://phs.pasadenausd.org/">
-  <button type="button" class="btn btn-default" id="bigred">Pasadena High School</button>
-        </a>
-</div>
-    <div class="btn-group"><a href="http://getbootstrap.com/">
-  <button type="button" class="btn btn-default" id="boot">B</button>
-        </a>
-</div>
-  <div class="btn-group"><a href="http://melonjs.org/">
-  <button type="button" class="btn btn-default" id="melon">m</button>
-        </a>
-</div>
-  <div class="btn-group"><a href="http://www.w3.org/standards/webdesign/htmlcss">
-  <button type="button" class="btn btn-default" id="html">5</button>
-        </a>
-</div>
-  <div class="btn-group"><a href="http://www.w3.org/standards/webdesign/htmlcss">
-  <button type="button" class="btn btn-default" id="css">3</button>
-        </a>
-</div>
-                    
- 
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="about-me.html">About Me<span class="sr-only">(current)</span></a></li>
+       
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Projects<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            
+              <li><a href="projects.html">All</a></li>
+              <li class="divider"></li>
+              <li><a href="http://localhost:8383/salgadoi-portfolio/index.html">Portfolio</a></li>
+              <li class="divider"></li>
+              <li><a href="v2.html">Portfolio 2</a></li>
+              <li class="divider"></li>
+              <li><a href="http://localhost:8383/salgadoi-snake/index.html">Snake</a></li>
+              <li class="divider"></li>
+              <li><a href="http://localhost:8383/MarioIvanS/index.html">Mario</a></li>
+              <li class="divider"></li>
+              <li><a href="http://localhost:8383/CBIvanS/index.html">Advertisement</a></li>
+              <li class="divider"></li>
+              <li><a href="index.html">Portfolio 2 (alternative)</a></li>
+         </ul>
+        </li>
         
-</div>
+        <li><a href="technology.html">Technology</a></li>
+        <li><a href="http://www.theappacademy.us/">The App Academy</a></li>
+        <li><a href="http://phs.pusd.us/pages/Pasadena_High">Pasadena High School</a></li>
+        
+        <li><div class="btn-group"><a href="http://getbootstrap.com/">
+        <button type="button" class="btn btn-default" id="boot">B</button></a>
+        </div></li>
+        
+        <li><div class="btn-group"><a href="http://melonjs.org/">
+        <button type="button" class="btn btn-default" id="melon">m</button></a>
+        </div></li>
+        
+        <li><div class="btn-group"><a href="http://www.w3.org/standards/webdesign/htmlcss">
+        <button type="button" class="btn btn-default" id="html">5</button></a>
+        </div></li>
+        
+        <li><div class="btn-group"><a href="http://www.w3.org/standards/webdesign/htmlcss">
+        <button type="button" class="btn btn-default" id="css">3</button></a>
+        </div></li>
+        
+        <li><div class="btn-group" id="clickButton">
+        <button type="button" class="btn btn-default" id="clickButton">b</button>
+            </div></li>
+        
+      </ul>
+    </div>
   </div>
+  </nav>              
                 
                 
                 
-                <div class="row">
-                    <div class='col-xs-9'>
+                    <div class="row" id="app">
+                    <div class='col-xs-9' id="me">
                     <img src='images/moi.png'>
                     </div>
                     <div class='col-xs-1'>
@@ -97,18 +102,16 @@
                            learn how to develop computer and mobile applications as well as games.
                            </p>
                     </div>
-                    <!--links-->
                     
-                </div>
-                
-               
-                
-            </div>
+                    </div>
         
+        <div class="ivan">
+            ivan
         </div>
+        
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
        <script src="js/bootstrap.min.js"></script>
-        
+        <script type="text/javascript" src="scripts.js"></script>
     </body>
 </html>
