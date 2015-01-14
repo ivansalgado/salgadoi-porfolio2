@@ -4,7 +4,10 @@ $("document").ready(function(){
     $("#boot").bind('click', alertButtonClick);
     
     $("#clickButton").bind('click', clickButton);
-    $("#clickButton").bind('click', clickButtin);
+    $("#clickButtin").bind('click', clickButtin);
+    
+    $('#hide').bind('click', hideThePage);
+    $('#show').bind('click', showThePage);
 });
 
 function alertButtonClick(){
@@ -19,4 +22,13 @@ function clickButtin(){
     $('#me').text('<h6>now im an h6 tag</h6>');
 }
 
+function hideThePage(){
+    $('#show').css('visibility', 'hidden');
+    $('div').hide('fold', {}, 2500);
+    $('#show').show('puff', {}, 2500);
+}
+
+function showThePage(){
+    $('div').hide('fold', {}, 2500);
+}
   
