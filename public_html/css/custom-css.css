@@ -7,7 +7,7 @@ div{
 
 a{
     font-family: 'Carme', sans-serif;
-    color: pink;
+    color: #212121
 }
 
 h1{
@@ -49,10 +49,11 @@ h4{
     background-size: 1500px;
     background-repeat: no-repeat;
     text-decoration-color: white;
+    
 }
 
 h6{
-    font-size: 40px;
+    font-size: 60px;
     font-family: 'Carme', sans-serif;
     padding-bottom: 50px;
     color: #757575;
@@ -63,7 +64,8 @@ body{
 }
 
 article{
-    font-size: 22.5px;
+    font-size: 30px;
+    color: #FF9800;
 }
 
 p{
@@ -152,4 +154,33 @@ p2{
 #j:hover{
     color: white;
     background-color: blue;
+}
+
+#jquery:hover{
+    color: blue;
+}
+
+#i{
+    color: white;
+  //  background-color: #FF9800;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30.5px;
+    color: #757575;
+}
+
+#so:hover{
+    text-decoration: none;
+}
+
+#fun{
+    padding-left: 265px;
+}
+
+#js{
+    background-color: white;
+    color: #FFEE58;
+}
+#js:hover{
+    color: white;
+    background-color: #FFEE58;
 }

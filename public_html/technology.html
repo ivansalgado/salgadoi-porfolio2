@@ -11,23 +11,17 @@
     </head>
     <body>
         
-        <nav class="navbar navbar-default" role="navigation">
+        <nav class="navbar navbar-default" role="navigation" id="nav">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Iván Salgado</a>
+        <a class="navbar-brand" href="index.html" id='i'>Iván Salgado</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="about-me.html">About Me</a></li>
+        <li><a href="about-me.html">About Me<span class="sr-only">(current)</span></a></li>
        
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Projects<span class="caret"></span></a>
@@ -37,7 +31,7 @@
               <li class="divider"></li>
               <li><a href="http://localhost:8383/salgadoi-portfolio/index.html">Portfolio</a></li>
               <li class="divider"></li>
-              <li><a href="http://localhost:8383/salgadoi-portfolio2/index.html">Portfolio 2</a></li>
+              <li><a href="v2.html">Portfolio 2</a></li>
               <li class="divider"></li>
               <li><a href="http://localhost:8383/salgadoi-snake/index.html">Snake</a></li>
               <li class="divider"></li>
@@ -45,21 +39,15 @@
               <li class="divider"></li>
               <li><a href="http://localhost:8383/CBIvanS/index.html">Advertisement</a></li>
               <li class="divider"></li>
-              <li><a>Portfolio 2 (alternative)</a></li>
+              <li><a href="index.html">Portfolio 2 (alternative)</a></li>
          </ul>
         </li>
         
-        <li class="active"><a href="technolgy.html">Technology</a></li>
+        <li class="active"><a href="technology.html">Technology</a></li>
         <li><a href="http://www.theappacademy.us/">The App Academy</a></li>
         <li><a href="http://phs.pusd.us/pages/Pasadena_High">Pasadena High School</a></li>
         
-        <li><div class="btn-group"><a href="http://getbootstrap.com/">
-        <button type="button" class="btn btn-default" id="boot">B</button></a>
-        </div></li>
         
-        <li><div class="btn-group"><a href="http://melonjs.org/">
-        <button type="button" class="btn btn-default" id="melon">m</button></a>
-        </div></li>
         
         <li><div class="btn-group"><a href="http://www.w3.org/standards/webdesign/htmlcss">
         <button type="button" class="btn btn-default" id="html">5</button></a>
@@ -69,13 +57,23 @@
         <button type="button" class="btn btn-default" id="css">3</button></a>
         </div></li>
         
-        <li><div class="btn-group"><a href="">
+        <li><div class="btn-group"><a href="http://getbootstrap.com/">
+        <button type="button" class="btn btn-default" id="boot">B</button></a>
+        </div></li>
+        
+        <li><div class="btn-group"><a href="http://melonjs.org/">
+        <button type="button" class="btn btn-default" id="js">js</button></a>
+        </div></li>
+                
+        <li><div class="btn-group"><a href="http://melonjs.org/">
+        <button type="button" class="btn btn-default" id="melon">m</button></a>
+        </div></li>
+        
+        <li><div class="btn-group"><a href="http://jquery.com/">
         <button type="button" class="btn btn-default" id="j">j</button></a>
         </div></li>
         
-        <li><div class="btn-group">
-                <a href="jquery.html"><button type="button" class="btn btn-default">b</button></a>
-            </div></li>
+        <li><a href="jquery.html" id="jquery">jQuery Page</a></li>
         
       </ul>
     </div>
@@ -83,76 +81,104 @@
   </nav>
         
          <div class="row">
-            <div class="row">
-                <h6>Technology</h6>
-                    <article>HTML & CSS</article>
-                    <div class="row">
-                    <p>Our web sites at the App Academy are developed with a computer application called 
-                       NetBeans. This application enables us to use HTML (Hypertext Markup Language).
-                       This is a system that you can use for creating a web site. As shown below, web sites are 
-                       composed of a large variety of elements. Each element is enclosed in angle brackets 
-                       and comes in a pair. For example, "< article >" and "< /article >" would be in charge 
-                       of displaying any text on a web page. 
-                       CSS is another language use in computer programming. CSS stands 
-                       for Cascading Style Sheet. It's used for designing the look of
-                       a web site. For example, to make the color of the font white, you would 
-                       type in: body{color: white;}. </p>
-                    </div>
-                    <!--pics of html, css, and bootstrap-->
-                    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel" data-slide-to="1"></li>
-    <li data-target="#carousel" data-slide-to="2"></li>
-    <li data-target="#carousel" data-slide-to="3"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    
-      <div class="item active">
-          <a href="http://www.w3.org/standards/webdesign/htmlcss">
-      <img src="images/html5.png" alt="ny" class="center">
-          </a>
-      </div>
+             <div class="row">
+             <div class="col-xs-2"></div>
+             <div class="col-xs-8"><h6>Technology</h6></div>
+             </div>
+             
+             <div class="row">
+                 <div class="col-xs-2"><img></div>
+             <article class="col-xs-8">HTML5</article>
+             </div>
+             
+             <div class="row">
+             <div class="col-xs-2"></div>
+             <div class="col-xs-8"></div>
+             </div>
+             
+             <div class="row">
+             <div class="col-xs-2"><img></div>
+             <article class="col-xs-8">CSS3</article>
+             </div>
+             
+             <div class="row">
+             <div class="col-xs-2"></div>
+             <div class="col-xs-8"></div>
+             </div>
+             
+             <div class="row">
+             <div class="col-xs-2"><img></div>
+             <article class="col-xs-8">Bootstrap</article>
+             </div>
+             
+             <div class="row">
+             <div class="col-xs-2"></div>
+             <div class="col-xs-8"></div>
+             </div>
+             
+             <div class="row">
+             <div class="col-xs-2"><img></div>
+             <article class="col-xs-8">JavaScript</article>
+             </div>
+             
+             <div class="row">
+             <div class="col-xs-2"></div>
+             <div class="col-xs-8"></div>
+             </div>
+             
+             <div class="row">
+             <div class="col-xs-2"><img></div>
+             <article class="col-xs-8">melonJS</article>
+             </div>
+             
+             <div class="row">
+             <div class="col-xs-2"></div>
+             <div class="col-xs-8"></div>
+             </div>
+             
+             <div class="row">
+             <div class="col-xs-2"><img></div>
+             <article class="col-xs-8">jQuery</article>
+             </div>
+             
+             <div class="row">
+             <div class="col-xs-2"></div>
+             <div class="col-xs-8"></div>
+             </div>
+        </div>
+        
+        
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="col-xs-2"></div>
+        <div class="container-fluid col-xs-8">
+            
+            
+            
       
-      <div class="item">
-          <a href="http://www.w3.org/standards/webdesign/htmlcss">
-      <img src="images/css3.png" alt="pfa" class="center">
-          </a>
-      </div>
+        <ul class="nav navbar-nav">
+        <li><a href="index.html">
+        <span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+        </ul>
+        
+        <ul class="nav navbar-nav">
+        <li><a href="http://www.theappacademy.us/">The App Academy</a></li>
+        </ul>
+        
+        <ul class="nav navbar-nav">
+        <li><a href="http://www.theappacademy.us/">Pasadena High School</a></li>
+        </ul>
+        
+        <ul class="nav navbar-nav">
+        <li><a href="http://www.theappacademy.us/">College and Career Pathways</a></li>
+        </ul>
+        
+            
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="projects.html"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a></li>
+        </ul>
       
-      <div class="item">
-          <a href="http://getbootstrap.com/">    
-      <img src="images/bootstrap.png" alt="stat" class="center">
-          </a>
-      </div>
-      
-      <div class="item">
-          <a href="http://melonjs.org/">
-      <img src="images/mjs.png" alt="stat" class="center">
-          </a>
-      </div>
-      
-      <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-
-  </div>
-  </div>  
-                    <article>Bootstrap</article>
-                    <div class="row">
-                        <p>Bootstrap is an open-source software, used to assist 
-                           HTML and CSS. This means that you can add certain features 
-                           (such as the dropdowns used in the index page) to make your 
-                           web site look sleeker and more professional.</p>
-                    </div> 
-            </div>
-         </div>
+        </div>
+        </nav>
                 
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
        <script src="js/bootstrap.min.js"></script>

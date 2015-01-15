@@ -16,7 +16,7 @@
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-    <a class="navbar-brand" href="index.html">Iván Salgado</a>
+        <a class="navbar-brand" href="index.html" id='i'>Iván Salgado</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -48,13 +48,7 @@
         <li><a href="http://www.theappacademy.us/">The App Academy</a></li>
         <li><a href="http://phs.pusd.us/pages/Pasadena_High">Pasadena High School</a></li>
         
-        <li><div class="btn-group"><a href="http://getbootstrap.com/">
-        <button type="button" class="btn btn-default" id="boot">B</button></a>
-        </div></li>
         
-        <li><div class="btn-group"><a href="http://melonjs.org/">
-        <button type="button" class="btn btn-default" id="melon">m</button></a>
-        </div></li>
         
         <li><div class="btn-group"><a href="http://www.w3.org/standards/webdesign/htmlcss">
         <button type="button" class="btn btn-default" id="html">5</button></a>
@@ -64,29 +58,41 @@
         <button type="button" class="btn btn-default" id="css">3</button></a>
         </div></li>
         
-        <li><div class="btn-group"><a href="">
+        <li><div class="btn-group"><a href="http://getbootstrap.com/">
+        <button type="button" class="btn btn-default" id="boot">B</button></a>
+        </div></li>
+        
+        <li><div class="btn-group"><a href="http://melonjs.org/">
+        <button type="button" class="btn btn-default" id="js">js</button></a>
+        </div></li>
+        
+        <li><div class="btn-group"><a href="http://melonjs.org/">
+        <button type="button" class="btn btn-default" id="melon">m</button></a>
+        </div></li>
+        
+        <li><div class="btn-group"><a href="http://jquery.com/">
         <button type="button" class="btn btn-default" id="j">j</button></a>
         </div></li>
         
-        <li><div class="btn-group">
-                <a href="jquery.html"><button type="button" class="btn btn-default">b</button></a>
-            </div></li>
+        <li><a href="jquery.html" id="jquery">jQuery Page</a></li>
         
       </ul>
     </div>
   </div>
   </nav>              
-                
-                
-                
                     <div class="row" id="app">
-                    <div class='col-xs-9' id="me">
+                        
+                        
+                        <div class='row'>
+                        <div class='col-xs-2'></div>    
+                        <div class='col-xs-8'><h6>About Me</h6>
                     <img src='images/moi.png'>
                     </div>
-                    <div class='col-xs-1'>
-                    <h6>Hi.</h6>
-                    </div>
-                    <div class="row">
+                       
+                        
+                    <div class='row'>    
+                    <div class='col-xs-2'><img src='images/y.png'></div>   
+                    <div class='col-xs-10' id='fun'>
                     <p>I'm a student at the App 
                     Academy at Pasadena High School. I am currently 
                     learning how to create a web site. It has only been six weeks 
@@ -97,10 +103,18 @@
                     I'd like to pursue. I believe that this class will teach me all 
                     of the right steps to make my aspiration a reality.</p>
                     </div>
-
-                    <article id="weird">App Academy</article>
-                    <div class="row" id="weird">
-                        <p>The App Academy is a <a href="http://www.pasedfoundation.org/programs/college-and-career-pathways/">
+                    </div>
+                        
+                        
+                        
+                    <div class='row'>   
+                        <div class='col-xs-2'></div>  
+                    <article id="weird" class='col-xs-8'>App Academy</article>
+                        
+                    
+                    <div class='col-xs-2'></div>
+                    <div class="col-xs-8" id="weird">
+                        <p>The App Academy is a <a href="http://www.pasedfoundation.org/programs/college-and-career-pathways/" id='so'>
                            College & Career Pathway</a>, that 
                            specializes in the field of technology. It's a four-year program where students 
                            learn how to develop computer and mobile applications as well as games.
@@ -109,9 +123,41 @@
                     
                     </div>
         
-        <div class="ivan">
-            ivan
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="col-xs-2"></div>
+        <div class="container-fluid col-xs-8">
+            
+            
+            
+      
+        <ul class="nav navbar-nav">
+        <li><a href="index.html">
+        <span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+        </ul>
+        
+        <ul class="nav navbar-nav">
+        <li><a href="http://www.theappacademy.us/">The App Academy</a></li>
+        </ul>
+        
+        <ul class="nav navbar-nav">
+        <li><a href="http://www.theappacademy.us/">Pasadena High School</a></li>
+        </ul>
+        
+        <ul class="nav navbar-nav">
+        <li><a href="http://www.theappacademy.us/">College and Career Pathways</a></li>
+        </ul>
+            
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="projects.html"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
+        </ul>
+                
+
+        
+      
         </div>
+        </nav>
+              
+
         
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
