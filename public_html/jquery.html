@@ -34,7 +34,7 @@ and open the template in the editor.
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Projects<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             
-              <li><a href="projects.html">All</a></li>
+              <li><a href="projects.html">Overview</a></li>
               <li class="divider"></li>
               <li><a href="http://localhost:8383/salgadoi-portfolio/index.html">Portfolio</a></li>
               <li class="divider"></li>
@@ -87,37 +87,46 @@ and open the template in the editor.
   </div>
   </nav>
             
-
-        
-        <div class="ivan" id="i">Welcome to the jQuery page.</div>
-        <div class="iv"><p>To change the jQuery page's elements, just click any button!</p></div>
         
         
+        <div class="row">
+             <div class="col-xs-2"></div>
+             <div class="ivan col-xs-8"><h6 id="na" class="ivan">Welcome to the jQuery page.</h6><div></div><div></div><div></div></div>
+             </div>
+        
+        <div class="row">
+             <div class="col-xs-2"></div>
+             <div class="iv col-xs-8" id="iva"><p>To change the jQuery page's elements, just hover over any highlight...</p></div>
+             </div>
+        
+        
+        <div class="col-xs-2"></div>
+        <div class="jq col-xs-8">
         
         
         <div class="btn-group" id="b">
         <button type="button" class="btn btn-default" id="b">alert button</button>
         </div>
         
-        <div id='me'></div>
-        <div class="btn-group" id="clickButton">
+            
+            <div class="row">
+        <div class="btn-group">
         <button type="button" class="btn btn-default" id="clickButton">html</button>
-        </div>
-        
-        <div class="btn-group" id="clickButtin">
         <button type="button" class="btn btn-default" id="clickButtin">text</button>
         </div>
+        <div id="me">I am a paragraph tag</div>
+            </div>
         
+            
+        <div class="btn-group" id="addFirstText">
+        <button type="button" class="btn btn-default" id="addFirstText">Add Text</button>
+        </div>
         
-        
-        <div id='p1'><p>This is the first line</p></div>
         <div class="btn-group" id="addText">
-        <button type="button" class="btn btn-default" id="addText">Add Text</button>
+        <button type="button" class="btn btn-default" id="addText">Add More Text</button>
         </div>
         
-        <div class="btn-group" id="subText">
-        <button type="button" class="btn btn-default" id="subText">Remove Text</button>
-        </div>
+        
         
         <div class="btn-group" id="addBefore">
         <button type="button" class="btn btn-default" id="addBefore">Add Text Before</button>
@@ -126,12 +135,15 @@ and open the template in the editor.
         <div class="btn-group" id="addAfter">
         <button type="button" class="btn btn-default" id="addAfter">Add Text After</button>
         </div>
-         
-        
-        
-        <div id="henri">
-        <img src='images/greenbus.png'>
+            
+        <div class="btn-group" id="subText">
+        <button type="button" class="btn btn-default" id="subText">Remove Text</button>
         </div>
+            
+        <div id='p1'><p>This is a line</p></div>  
+        </div>
+       
+        
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>

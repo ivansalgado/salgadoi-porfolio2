@@ -1,14 +1,18 @@
 $("document").ready(function(){
-    $(".ivan").css("background-color", "#FF9800");
-    $(".iv").css("background-color", "#FFEE58");
+    $(".ivan").css("background-color", "#FFB74D");
+    $(".iv").css("background-color", "#FFF59D");
+    $(".jq").css("background-color", "#CCFF90");
 
     $("#b").bind('click', alertButtonClick);
     
-    $("#henri").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
+    $(".ivan").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
+    $(".iv").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
+    $(".jq").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
     
     $("#clickButton").bind('click', clickButton);
     $("#clickButtin").bind('click', clickButtin);
     
+    $("#addFirstText").bind('click', addFirstText);
     $("#addText").bind('click', addText);
     $("#subText").bind('click', subText);
     $("#addBefore").bind('click', addBefore);
@@ -23,11 +27,27 @@ function alertButtonClick(){
 }
 
 function mouseOverMe(){
-    $("#henri").html("you put your cursor on the picture");
+$(".ivan").html("<h6>Welcome to the jQuery page!<div></div><div></div><div></div></div></h6>").css("background-color", "#FF9800");
 }
 
 function mouseOutMe(){
-    $("#henri").html("you stopped touching the picture");
+$(".ivan").html("<h6>Welcome to the jQuery page.<div></div><div></div><div></div></div></h6>").css("background-color", "#FFB74D");
+}
+
+function mouseOverMe1(){
+$(".iv").html("<p>...or click any button!</p>").css("background-color", "#FFEE58");
+}
+
+function mouseOutMe1(){
+$(".iv").html("<p>To change the jQuery page's elements, just hover over any highlight...</p>").css("background-color", "#FFF59D");
+}
+
+function mouseOverMe2(){
+$(".jq").css("background-color", "#B2FF59");
+}
+
+function mouseOutMe2(){
+$(".jq").css("background-color", "#CCFF90");
 }
 
 function clickButton(){
@@ -36,6 +56,10 @@ function clickButton(){
 
 function clickButtin(){
     $('#me').text('<h6>now im an h6 tag</h6>');
+}
+
+function addFirstText(){
+    $('#p1').html('<p>This is a line</p>');
 }
 
 function addText(){
@@ -47,11 +71,11 @@ function subText(){
 }
 
 function addBefore(){
-    $('#p1 p:firsts').before('This line is first');
+    $('#p1 p:first').before('<p>Now this line is first</p>');
 }
 
 function addAfter(){
-    $('#p1 p:last').remove();
+    $('#p1 p:last').after('<p>This line is last</p>');
 }
 
 function hideThePage(){
@@ -63,4 +87,6 @@ function hideThePage(){
 function showThePage(){
     $('div').hide('fold', {}, 2500);
 }
+
+
   
