@@ -2,12 +2,14 @@ $("document").ready(function(){
     $(".ivan").css("background-color", "#FFB74D");
     $(".iv").css("background-color", "#FFF59D");
     $(".jq").css("background-color", "#CCFF90");
+    $(".b").css("background-color", "#E3F2FD");
 
     $("#b").bind('click', alertButtonClick);
     
     $(".ivan").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
-    $(".iv").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
-    $(".jq").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
+    $(".iv").bind('mouseover', mouseOverMe1).bind('mouseout', mouseOutMe1);
+    $(".jq").bind('mouseover', mouseOverMe2).bind('mouseout', mouseOutMe2);
+    $(".b").bind('mouseover', mouseOverMe3).bind('mouseout', mouseOutMe3);
     
     $("#clickButton").bind('click', clickButton);
     $("#clickButtin").bind('click', clickButtin);
@@ -17,6 +19,8 @@ $("document").ready(function(){
     $("#subText").bind('click', subText);
     $("#addBefore").bind('click', addBefore);
     $("#addAfter").bind('click', addAfter);
+    
+    $('.b').accordion({ header: "h4"});
     
     $('#hide').bind('click', hideThePage);
     $('#show').bind('click', showThePage);
@@ -50,6 +54,14 @@ function mouseOutMe2(){
 $(".jq").css("background-color", "#CCFF90");
 }
 
+function mouseOverMe3(){
+$(".b").css("background-color", "#BBDEFB");
+}
+
+function mouseOutMe3(){
+$(".b").css("background-color", "#E3F2FD");
+}
+
 function clickButton(){
     $('#me').html('<h6>now im an h6 tag</h6>');
 }
@@ -71,7 +83,7 @@ function subText(){
 }
 
 function addBefore(){
-    $('#p1 p:first').before('<p>Now this line is first</p>');
+    $('#p1 p:first').before('<p>This line is first</p>');
 }
 
 function addAfter(){
