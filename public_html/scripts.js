@@ -20,7 +20,7 @@ $("document").ready(function(){
     $("#addBefore").bind('click', addBefore);
     $("#addAfter").bind('click', addAfter);
     
-    $('.b').accordion({ header: "h4"});
+    $('#new').accordion({ header: "h3"});
     
     $('#hide').bind('click', hideThePage);
     $('#show').bind('click', showThePage);
