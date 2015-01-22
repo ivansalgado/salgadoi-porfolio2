@@ -180,3 +180,13 @@ p2{
     color: white;
     background-color: #FFEE58;
 }
+
+#mi{
+    font-size: 30px;
+    color: #FF9800;
+}
+
+#oo, #aa, #bb{
+    font-size: 90px;
+}
+
