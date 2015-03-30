@@ -195,7 +195,7 @@ p2{
     float: left;
     display: block;
     position: relative;
-    border: 4px solid white;
+    border: 4px solid #F5F5F5;
     margin: 18px;
 }
 
@@ -206,10 +206,11 @@ p2{
     position: relative;
     height: 208px;
     width: 208px;
-    border: 4px solid white;
+    border: 4px solid #F5F5F5;
   //  border: 4px solid white;
     margin: 18px;
-    text-decoration-color: white;
+    text-decoration-color: #757575;
+    background-color: #F5F5F5;
   //  opacity: 0;
 }
 
@@ -220,5 +221,9 @@ p2{
 }
 
 .me{
-    color: white;
+    color: #757575;
+}
+
+#contact{
+    color: #757575;
 }
