@@ -45,7 +45,7 @@ h4{
 }
 
 .jumbotron{
-    background: url("http://wallpaperest.com/wallpapers/new-york-sunset-central-park-autumn-city_075722.jpg");
+    background: url("http://pocketguys.com/wp-content/uploads/2014/11/New-York-City-Sunset-Awesome-Wallpaper.jpg");
     background-size: 1500px;
     background-repeat: no-repeat;
     text-decoration-color: white;
@@ -190,3 +190,35 @@ p2{
     font-size: 90px;
 }
 
+.photos li{
+    list-style-type: none;
+    float: left;
+    display: block;
+    position: relative;
+    border: 4px solid white;
+    margin: 18px;
+}
+
+.photo li{
+    list-style-type: none;
+    float: left;
+    display: block;
+    position: relative;
+    height: 208px;
+    width: 208px;
+    border: 4px solid white;
+  //  border: 4px solid white;
+    margin: 18px;
+    text-decoration-color: white;
+  //  opacity: 0;
+}
+
+#content{
+    padding-top: 290px;
+    position: absolute; 
+    top: 0px;
+}
+
+.me{
+    color: white;
+}

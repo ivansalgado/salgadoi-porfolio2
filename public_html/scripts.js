@@ -17,6 +17,20 @@ $("document").ready(function(){
     $(".10").css("background-color", "#F5F5F5");
     $("#hide").css("background-color", "#FFB74D");
     
+    
+    
+    $('.photos img').css('opacity', 1);
+    $('.photos li').hover(
+            function() {
+                $(this).find('img').stop().fadeTo('slow', 0);
+            },
+            function() {
+                $(this).find('img').stop().fadeTo('slow', 1);
+            });
+    
+    
+    
+    
     $("#b").bind('click', alertButtonClick);
     
     $(".ivan").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
@@ -221,6 +235,13 @@ function hideThePage(){
 function showThePage(){
     $('div').hide('fold', {}, 2500);
 }
+
+
+
+
+
+
+
 
 
   
