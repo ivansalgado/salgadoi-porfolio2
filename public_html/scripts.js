@@ -22,10 +22,19 @@ $("document").ready(function(){
     $('.photos img').css('opacity', 1);
     $('.photos li').hover(
             function() {
-                $(this).find('img').stop().fadeTo('slow', 0);
+                $('#accordion').accordion({header: "h6"});
             },
             function() {
-                $(this).find('img').stop().fadeTo('slow', 1);
+                $('#accordion').accordion({header: "h6"});
+            });
+
+
+    $('#drop').hover(
+            function() {
+                $(this).find('a');
+            },
+            function() {
+                $(this).find('a');
             });
     
     
